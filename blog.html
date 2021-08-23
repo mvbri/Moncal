@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./dist/css/main.css" />
+  <link href="./dist/css/icons.css" rel="stylesheet">
+  <title>Blog | Moncal</title>
+</head>
+<body>
+  <img src="./assets/img/elipses.svg" alt="border lateral header" class="header__background">
+  <main>
+    <header class="header header__blog">
+      <div class="row mx-0 h-100 d-flex justify-content-end">
+        <div class="col-6 col-md-6 d-flex flex-column justify-content-center align-items-center header__column-one">
+          <div class="w-100 header__logo">
+            <a href="index.html">
+              <img class="d-none d-sm-none d-md-block" src="./assets/img/logo-moncal-medium.svg" alt="Moncal logo">
+              <img class="d-block d-sm-block d-md-none" src="./assets/img/logo-moncal-small.svg" alt="Moncal logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 header__column-two">
+          <div class="d-flex header__nav">
+            <nav class="navbar navbar-expand-lg p-0">
+              <button class="navbar-toggler btn-menu" type="button" id="btn-menu-mobile" onclick="openMenu()">
+                <span class="icon icon-menu"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="menu-mobile">
+                <div class="d-flex d-sm-flex d-md-none justify-content-end">
+                  <button class="btn-close border-0" onclick="closeMenu()">
+                    <span class="icon icon-menu"></span>
+                  </button>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="pl-3 nav-link" href="about.html">Conócenos</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contáctenos</a>
+                  </li>
+                  <li class="nav-item bg-primary btn__contact">
+                    <a class="pr-3 nav-link nav-link--button" href="#"> <span class="icon icon-phone"></span> Llámanos al (01) 252-7076</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-md-8 blog__page">
+          <section class="section__blog section__blog--page pr-5">
+            <h2 class="my-4 blog__title">Entérate más noticias</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 mb-5">
+                <div class="card card__blog">
+                  <img src="./assets/img/bg-img.png" class="card-img-top" alt="...">
+                  <div class="card-body card__content">
+                    <h5 class="card__title">
+                      <a href="blog-detail.html">¿Realmente existe una ciencia detrás del lavado industrial?</a>
+                    </h5>
+                    <p class="card__text">Hoy en día la rotación de personal que trabaja en industrias y servicios industriales es un tema con el que nos toca lidiar a todos... <a href="#" class="text-primary"><strong>Leer más</strong></a></p>
+                  </div>
+                  <div class="card-footer card__footer">
+                    <p>
+                      <span class="icon icon-tag icon-rotate mr-1"></span>
+                      Lavanderia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-5">
+                <div class="card card__blog">
+                  <img src="./assets/img/bg-img.png" class="card-img-top" alt="...">
+                  <div class="card-body card__content">
+                    <h5 class="card__title">
+                      <a href="blog-detail.html">¿Realmente existe una ciencia detrás del lavado industrial?</a>
+                    </h5>
+                    <p class="card__text">Hoy en día la rotación de personal que trabaja en industrias y servicios industriales es un tema con el que nos toca lidiar a todos... <a href="#" class="text-primary"><strong>Leer más</strong></a></p>
+                  </div>
+                  <div class="card-footer card__footer">
+                    <p>
+                      <span class="icon icon-tag icon-rotate mr-1"></span>
+                      Lavanderia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-5">
+                <div class="card card__blog">
+                  <img src="./assets/img/bg-img.png" class="card-img-top" alt="...">
+                  <div class="card-body card__content">
+                    <h5 class="card__title">
+                      <a href="blog-detail.html">¿Realmente existe una ciencia detrás del lavado industrial?</a>
+                    </h5>
+                    <p class="card__text">Hoy en día la rotación de personal que trabaja en industrias y servicios industriales es un tema con el que nos toca lidiar a todos... <a href="#" class="text-primary"><strong>Leer más</strong></a></p>
+                  </div>
+                  <div class="card-footer card__footer">
+                    <p>
+                      <span class="icon icon-tag icon-rotate mr-1"></span>
+                      Lavanderia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-5">
+                <div class="card card__blog">
+                  <img src="./assets/img/bg-img.png" class="card-img-top" alt="...">
+                  <div class="card-body card__content">
+                    <h5 class="card__title">
+                      <a href="blog-detail.html">¿Realmente existe una ciencia detrás del lavado industrial?</a>
+                    </h5>
+                    <p class="card__text">Hoy en día la rotación de personal que trabaja en industrias y servicios industriales es un tema con el que nos toca lidiar a todos... <a href="#" class="text-primary"><strong>Leer más</strong></a></p>
+                  </div>
+                  <div class="card-footer card__footer">
+                    <p>
+                      <span class="icon icon-tag icon-rotate mr-1"></span>
+                      Lavanderia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-5">
+                <div class="card card__blog">
+                  <img src="./assets/img/bg-img.png" class="card-img-top" alt="...">
+                  <div class="card-body card__content">
+                    <h5 class="card__title">
+                      <a href="blog-detail.html">¿Realmente existe una ciencia detrás del lavado industrial?</a>
+                    </h5>
+                    <p class="card__text">Hoy en día la rotación de personal que trabaja en industrias y servicios industriales es un tema con el que nos toca lidiar a todos... <a href="#" class="text-primary"><strong>Leer más</strong></a></p>
+                  </div>
+                  <div class="card-footer card__footer">
+                    <p>
+                      <span class="icon icon-tag icon-rotate mr-1"></span>
+                      Lavanderia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-5">
+                <div class="card card__blog">
+                  <img src="./assets/img/bg-img.png" class="card-img-top" alt="...">
+                  <div class="card-body card__content">
+                    <h5 class="card__title">
+                      <a href="blog-detail.html">¿Realmente existe una ciencia detrás del lavado industrial?</a>
+                    </h5>
+                    <p class="card__text">Hoy en día la rotación de personal que trabaja en industrias y servicios industriales es un tema con el que nos toca lidiar a todos... <a href="#" class="text-primary"><strong>Leer más</strong></a></p>
+                  </div>
+                  <div class="card-footer card__footer">
+                    <p>
+                      <span class="icon icon-tag icon-rotate mr-1"></span>
+                      Lavanderia
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="pagination justify-content-center mb-4">
+            <span class="icon__prev icon icon-chevron-left mr-3"></span>
+            <span class="item item__prev active mr-1">
+              <a href="#">1</a>
+            </span>
+            /
+            <span class="item item__next ml-1">
+              <a href="#">3</a>
+            </span>
+            <span class="icon__next icon icon-chevron-right ml-3"></span>
+          </div>
+        </div>
+  
+        <div class="col-md-4 pl-0 sidebar__blog">
+          <div class="card mt-4 mb-md-4 border-0">
+            <div class="card-body pl-md-0">
+              <div class="mx-0 pl-md-5">
+                <h5 class="sidebar__blog-title mb-4">Buscar por:</h5>
+                <input type="text" class="form-control sidebar__blog-search" placeholder="¿Qué deseas leer?">
+              </div>
+              <div class="row mt-4 mx-0 pl-5 d-none d-md-flex">
+                <div class="col-12 col-sm-12 pl-0">
+                  <h5 class="sidebar__blog-section-title">Categorías</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li class="sidebar__blog-section-item d-block">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-tag icon-rotate mr-2"></span>
+                        <span>Lavandería</span>
+                      </a>
+                    </li>
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-tag icon-rotate mr-2"></span>
+                        <span>Lavandería</span>
+                      </a>
+                    </li>
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-tag icon-rotate mr-2"></span>
+                        <span>Lavandería</span>
+                      </a>
+                    </li>
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-tag icon-rotate mr-2"></span>
+                        <span>Lavandería</span>
+                      </a>
+                    </li>
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-tag icon-rotate mr-2"></span>
+                        <span>Lavandería</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-4 mx-0 pl-5 d-none d-md-flex">
+                <div class="col-12 col-sm-12 pl-0">
+                  <h5 class="sidebar__blog-section-title">Entradas recientes</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-message mr-2"></span>
+                        <span>
+                          ¿Qué tan necesarias son las capacitaciones en una lavandería industrial?
+                        </span>
+                      </a>
+                    </li>
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-message mr-2"></span>
+                        <span>
+                          ¿Qué tan necesarias son las capacitaciones en una lavandería industrial?
+                        </span>
+                      </a>
+                    </li>
+                    <li class="sidebar__blog-section-item">
+                      <a href="#" class="sidebar__blog-section-link">
+                        <span class="icon icon-message mr-2"></span>
+                        <span>
+                          ¿Qué tan necesarias son las capacitaciones en una lavandería industrial?
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <section class="section section__last-entries mb-5 pt-3">
+        <div class="row mx-0">
+          <div class="col-12 col-md-6">
+            <h3 class="row__title">Últimas entradas</h3>
+            <ul class="row__list">
+              <li class="row__list-item">
+                <a href="blog-detail.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  ¿ Qué tan necesarias son las capacitaciones en una lavandería industrial?
+                </a>
+              </li>
+              <li class="row__list-item">
+                <a href="blog-detail.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  ¿Realmente existe una ciencia detrás del lavado industrial?
+                </a>
+              </li>
+              <li class="row__list-item">
+                <a href="blog-detail.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  ¿Qué pasa si procesamos una toalla y una sábana al mismo tiempo?
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6">
+            <h3 class="row__title">Ubicación fácil</h3>
+            <ul class="row__list">
+              <li class="row__list-item">
+                <a href="index.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  Servicios
+                </a>
+              </li>
+              <li class="row__list-item">
+                <a href="about.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  Conócenos
+                </a>
+              </li>
+              <li class="row__list-item">
+                <a href="blog.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  Blog
+                </a>
+              </li>
+              <li class="row__list-item">
+                <a href="contact.html">
+                  <span class="icon icon-chevron-right mr-2"></span>
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+  
+    </div>
+  </main>
+
+  <footer class="footer position-absolute w-100 d-flex justify-content-center align-items-center bottom-0">
+    <p class="mb-0 footer__text">© Copy rigth 2017, Todos los derechos reservadoas | <span class="text-primary footer__text-company">Moncal</span></p>
+  </footer>
+
+
+  <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./dist/js/menu.js"></script>
+</body>
+
+</html>
